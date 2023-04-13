@@ -209,12 +209,6 @@ top: 300px;
   inline-size: 100%;
 }
 
-
-img{
-  -webkit-animation: kenburns-top-right 5s ease-out both;
-	        animation: kenburns-top-right 5s ease-out both;
-}
-
 @-webkit-keyframes kenburns-top-right {
   0% {
     -webkit-transform: scale(1) translate(0, 0);
