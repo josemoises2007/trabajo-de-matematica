@@ -32,5 +32,13 @@ O matemático George Stibitz cria o Model K na mesa de sua cozinha e a máquina 
 </div>
 </div>
 <script src="java.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">let mouseCursor = document.querySelector(".cursor");
+
+window.addEventListener("mousemove",cursor);
+
+function cursor(e){
+  mouseCursor.style.top = e.pageY + "px";
+  mouseCursor.style.left = e.pageX + "px";
+}
+</script> 
 </body>
