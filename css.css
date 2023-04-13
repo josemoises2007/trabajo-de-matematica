@@ -395,3 +395,14 @@ transition: all 0.7s ease-in-out;
       50% { opacity: 0; }
       100% { opacity: 0; }
   }
+.cursor{
+  width: 1rem;
+  height: 1rem;
+  _border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%,-250%);
+  pointer-events: none;
+  cursor: none;
+}
+
